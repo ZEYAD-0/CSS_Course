@@ -1,0 +1,19 @@
+﻿body{
+  font-family: sans-serif;
+}
+.parent-ul{
+  width: 400px;
+}
+.parent-li{
+  background-color: #DDD;
+  list-style: none;
+  padding: 5px;
+}
+ol li, .JS-ul li{
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+}
+.JS-ul{
+  list-style-position: inside;
+}

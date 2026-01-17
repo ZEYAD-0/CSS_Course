@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+input{
+  width: 600px;
+  caret-color: red;
+  display: block;
+  margin: 10px auto;
+  background-color: #eee;
+  padding: 10px;
+  border: none;
+  background-image: linear-gradient(to right, #f44336 50%, #00bcd4 50%);
+  background-size: 100% 2px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+input:focus{
+  outline: none;
+}

@@ -1,0 +1,14 @@
+a{
+  display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  font-family:fantasy;
+  font-size: xx-large;
+  width: 180px;
+  border-bottom: 15px solid darkmagenta;
+  line-height: 75px;
+  text-align: center;
+  margin: auto;
+}

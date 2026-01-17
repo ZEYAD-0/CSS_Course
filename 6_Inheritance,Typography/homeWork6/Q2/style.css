@@ -1,0 +1,16 @@
+p{
+  font-size: xx-large;
+}
+.Jomhuria{
+  font-family: "Jomhuria";
+  font-weight:400;
+}
+.Cairo{
+  font-family:cairo;
+  font-weight: 700;
+}
+.Open-Sans{
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-style: italic;
+}

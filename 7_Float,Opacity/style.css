@@ -1,0 +1,45 @@
+/* float, clear */
+/* .parent{
+  background-color: red;
+  padding: 10px;
+}
+.parent div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #DDD;
+  text-align: center;
+  width: 25%;
+  float: left;
+}
+.clear{
+  clear: both;
+} */
+/*+++++++++++++++++++++++++++++++*/
+/* calc */
+/* 
+body{
+  margin: 0;
+}
+div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #DDD;
+  text-align: center;
+  // full width - (margin value * (divs + 1)) / divs)
+  width: calc((100% - (1% * 5)) / 4);
+  margin-left: 1%;
+  float: left;
+} */
+/* Opacity */
+div{
+  padding: 10px;
+  margin: 10px;
+  font-size: xx-large;
+}
+.one{
+  background-color: rgb(255, 0, 0, 0.3);
+}
+.two{
+  background-color: red;
+  opacity: 0.3;
+}

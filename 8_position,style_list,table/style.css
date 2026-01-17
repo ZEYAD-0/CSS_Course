@@ -1,0 +1,108 @@
+/* Position */
+/*  
+- Position: Static => Default
+
+- Position: Relative => Move Relative to itself
+
+- Position: Absolute => Move Relative to 
+  its Parent, Parent must be Position Relative
+
+- Position: Fixed => positioned relative to the viewport.
+  It remains in the same position
+  even when the page is scrolled.
+
+- Position: Sticky => Behavior: The element is treated as relative 
+  until a specified offset point is reached in the viewport,
+  at which point it becomes fixed.
+*/
+/* body{
+  min-height: 5000px;
+}
+.parent{
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  background-color: blue;
+  position:relative;
+}
+.one, .two{
+  width: 100px;
+  padding: 20px;
+  font-size: xx-large;
+}
+.one{
+  background-color: green;
+  top: 20px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+.two{
+  background-color: red;
+}
+.sticky{
+  background-color: cyan;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+} */
+/* ++++++++++++++++++++++++++++++++ */
+/* Z-Index */
+/* div{
+  padding: 10px;
+  font-size: xx-large;
+  text-align: center;
+  width: 200px;
+  position: absolute;
+}
+.one{
+  background-color: red;
+  left: 40px;
+  top: 40px;
+  z-index: 3;
+}
+.two{
+  background-color: green;
+  left: 20px;
+  top: 20px;
+  z-index: 2;
+}
+.three{
+  background-color: cyan;
+} */
+/* ++++++++++++++++++++++++ */
+/* List-Styling */
+/* li{
+  font-size: xx-large;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #DDD;
+}
+ul{
+  list-style-type: style type;
+  list-style-position: inside;
+  list-style: square outside;
+} */
+/* ++++++++++++++++++++++++++ */
+/* Table-Styling */
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+  width: 100%;
+  /* border: 4px solid red; */
+  border-spacing: 1px;
+}
+table td{
+  padding: 20px;
+  background-color: #EEE;
+  border: 1px solid cyan;
+  font-size: xx-large;
+}
+table thead td{
+  font-weight: bold;
+  color: white;
+  background-color:darkcyan;
+  text-align: center;
+  border-color:blue;
+}

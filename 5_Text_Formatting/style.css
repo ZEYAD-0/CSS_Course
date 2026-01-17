@@ -1,0 +1,54 @@
+/* color and shadow */
+/* p{
+  font-size: xx-large;
+  margin: 20%;
+  color: goldenrod;
+  background-color: #DDD;
+  text-shadow: -6px 20px 3px red, 5px -50px 2px blue;
+} */
+/* Text Alignment */
+/* p{
+  width: 70%;
+  font-size: 50px;
+  text-align:center;
+  direction: ltr;
+}
+img{
+  width: 100px;
+  padding-top: 30px;
+  vertical-align: top;
+} */
+/* Text - Decoration And Transform */
+/* p{
+  font-size: xx-large;
+  text-decoration-line:overline;
+  text-decoration-thickness: 10px;
+  text-decoration-color: red;
+  text-decoration-style:wavy;
+  text-transform: uppercase;
+} */
+/* Text - Spacing */
+/* p{
+  background-color: #DDD;
+  font-size: xx-large;
+  letter-spacing: -6px;
+  letter-spacing: 4px;
+  text-indent: 100px;
+  line-height: 1.6;
+  word-spacing: 10px;
+  white-space: pre-wrap;
+  word-break:break-all;
+} */
+/* Text - Overflow And Use Cases */
+/* div{
+  background-color: #DDD;
+  font-size: xx-large;
+  padding: 10px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+div:hover{
+  overflow: visible;
+} */

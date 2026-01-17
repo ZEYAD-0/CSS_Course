@@ -1,0 +1,27 @@
+body{
+  font-family: sans-serif;
+}
+p{
+  counter-increment: p-counter;
+  background-color: #EEE;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  margin-left: 20%;
+  border-right: 4px solid red;
+  position: relative;
+}
+p::before{
+  content: counter(p-counter);
+  background-color:red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  top: -0px;
+  left: -40px;
+}

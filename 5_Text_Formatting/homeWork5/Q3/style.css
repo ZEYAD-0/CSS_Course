@@ -1,0 +1,9 @@
+div{
+  background-color: #DDD;
+  width: 400px;
+  padding: 15px;
+  margin: 20px;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

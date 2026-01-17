@@ -1,0 +1,24 @@
+.full{
+  width: 800px;
+  font-weight: bold;
+  text-align: center;
+  background-color: gray;
+}
+.full div{
+  padding: 5px;
+  margin: 10px;
+  background-color: blueviolet;
+  float: left;
+}
+.one-third{
+  width: calc( (100% - 30%) / 3);
+}
+.half{
+  width: calc( (100% - 50%) / 2);
+}
+.one-quarter{
+  width: calc( (100% - 40%) / 4);
+}
+.clear{
+  clear: both;
+}

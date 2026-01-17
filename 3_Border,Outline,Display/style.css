@@ -1,0 +1,57 @@
+/* Border */
+
+/* div{
+  background-color: cyan;
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+  border-style:solid;
+  border-width: 10px;
+  border-color:black;
+  border: 10px solid black;
+  } */
+
+  /* outline */
+
+  /* div{
+    width: 300px;
+    background-color: cyan;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 20px;
+    outline-color: red;
+    outline-width: 20px;
+    outline-style: solid;
+  } */
+
+  /* Display */
+
+/*
+  Block
+  - Take Full Width If No Width
+  - Add Line Break 
+  - Respect Padding, Margin, Width, Height
+
+  Inline
+  - Do Not Add Line Break
+  - Allow Elements Before And After It in The Same Line
+  - Do Not Respect Width, Height
+  - Respect Padding And Margin [ Just Right + Left ]
+
+  Inline-Block
+  - Do Not Add Line Break
+  - Allow Elements Before And After It in The Same Line
+  - Respect Padding, Margin, Width, Height
+
+*/
+/* span{
+  display: inline-block;
+  background-color: red;
+  margin: 30px;
+  padding: 80px;
+}
+p{
+  background-color: blue;
+  margin: 30px;
+  padding: 46px;
+} */

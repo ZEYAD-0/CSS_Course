@@ -1,0 +1,168 @@
+/* Flexible Box */
+/* 
+Flex Box Parent - Direction, Wrap, Flow 
+  For Parent
+    Display: flex => Start Flex Box
+    flex-direction: row; => Default
+    flex-wrap: nowrap; => Default
+    flex-flow: flex-direction flex-wrap
+
+    justify-content: flex-start => Default
+    align-items: stretch => Default
+    align-items: center => center text
+    align-content: stretch => Default 
+*/
+*{
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+/* .flex{
+  display: flex;
+  background-color: #EEE;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+}
+.flex div{
+  background-color: red;
+  color: white;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+}
+
+.float{
+  overflow: hidden;
+  background-color: #EEE;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+}
+.float div{
+  background-color: red;
+  color: white;
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+} */
+/*
+Flex Box Parent - Justify Content 
+  justify-content: flex-start => Default
+*/
+/*
+.flex{
+  display: flex;
+  background-color: #EEE;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+  justify-content:space-between;
+  justify-content:space-around;
+  justify-content:space-evenly;
+}
+.flex div{
+  background-color: red;
+  color: white;
+  width: calc(94% / 3);
+  text-align: center;
+  padding: 20px;
+}
+
+.float{
+  overflow: hidden;
+  background-color: #EEE;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+}
+.float div{
+  background-color: red;
+  color: white;
+  float: left;
+  width: calc(94% / 3);
+  text-align: center;
+  padding: 20px;
+
+  margin-left: 1%;
+  margin-right: 1%;
+} */
+/* 
+  Flex Box Parent - Align Items 
+    align-items: stretch => Default
+*/
+/* 
+.flex .one, .float .one{
+  height: 80px;
+}
+.flex .two, .float .two{
+  height: 120px;
+}
+.flex{
+  display: flex;
+  background-color: #EEE;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+  flex-flow: row nowrap;
+
+  align-items: stretch;
+}
+.flex div{
+  background-color: red;
+  color: white;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 20px;
+}
+
+.float{
+  overflow: hidden;
+  background-color: #EEE;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+}
+.float div{
+  background-color: red;
+  color: white;
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 20px;
+}
+.center{
+  background-color: blue;
+  color: white;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+} */
+/*
+Flex Box Parent - Align Content 
+  align-content: stretch => Default
+*/
+.flex{
+  display: flex;
+  background-color: #EEE;
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  margin: 20px auto;
+  flex-wrap: wrap;
+
+  align-content:center;
+}
+.flex div{
+  background-color: red;
+  color: white;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,72 @@
+/* Inheritance */
+/* body{
+  font-size: 20px;
+}
+div{
+  padding: 40px;
+  background-color: #DDD;
+  text-align: center;
+  border: 2px solid blue;
+}
+div p{
+    inherit from parent element
+      and change as parent change 
+  border: 2px solid;
+  border-color: inherit;
+  padding:inherit;
+} */
+/* ++++++++++++++++++++++ */
+/* Typography - Font Family */
+/* p{
+  font-size: xx-large;
+  background-color: #DDD;
+  padding: 10px;
+  width:fit-content;
+}
+.serif{
+  font-family: serif;
+}
+.sans{
+  font-family: sans-serif;
+}
+.from-google-fonts{
+  font-family: "Courgette", cursive;
+} */
+/* ++++++++++++++++++++++++++ */
+/* Font Size And CSS Units */
+/* 
+  => Default Font Size for Web Page is 16px
+  CSS Units
+  - px
+  - em => Times Current/Inherited Size
+  - rem => Times Root Font Size
+  - vw => View Port Width
+  Read
+  - vmin
+  - vh
+*/
+/* div{
+  font-size: 20px;
+}
+p{
+  font-size: 3em;
+} */
+/* ++++++++++++++++++++ */
+/* Font Style And Variant And Weight */
+/* p{
+  font-size: xx-large;
+  font-style: italic;
+  font-variant: small-caps;
+  font-family: cairo, sans-serif;
+  font-weight:bold;
+} */
+/* +++++++++++++++++++++++++++ */
+/* Mouse Cursor */
+/* button{
+  background: transparent;
+  border: none;
+  color: rebeccapurple;
+  font-size: xxx-large;
+  font-weight: bold;
+  cursor:
+} */

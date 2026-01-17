@@ -1,0 +1,79 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+}
+.parent{
+  background-color: red;
+  width: 550px;
+  height: 200px;
+  position: relative;
+}
+.basic, .pro{
+  background-color: #eeefef;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+.pro{
+  right: 0px;
+}
+.or{
+  width: 150px;
+  height: 200px;
+  display: inline-block;
+  background-color: green;
+}
+.plan-basic{
+  background-color: #03a8f5;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  display: inline-block;
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  position: absolute;
+  left: 10px;
+  top:10px
+}
+.price-basic{
+  background-color: #DDD;
+  width: 140px;
+  height: 140px;
+  text-align: center;
+  line-height: 140px;
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  border-radius: 50%;
+  font-size: xx-large;
+}
+.plan-pro{
+  background-color: #03a8f5;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  display: inline-block;
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
+  top:10px
+}
+.price-pro{
+  background-color: #DDD;
+  width: 140px;
+  height: 140px;
+  text-align: center;
+  line-height: 140px;
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  border-radius: 50%;
+  font-size: xx-large;
+}

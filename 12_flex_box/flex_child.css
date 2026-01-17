@@ -1,0 +1,89 @@
+/* Flexible Box */
+/* 
+For Child: Elements Inside Flex Box
+  flex-grow: 0 => Default
+  flex-shrink: 1 => Default
+  order: 0 => Default
+  flex-basis: auto;
+  flex: flex-grow flex-shrink flex-basis 0 1 auto
+  align-self: auto
+*/
+
+*{
+  box-sizing: border-box;
+}
+/* flex-grow, flex-shrink */
+/* .flex{
+  display: flex;
+  background-color: #eee;
+  width: 800px;
+  padding: 20px;
+  margin: 20px auto;
+}
+.flex div{
+  background-color: red;
+  color: white;
+  width: 80px;
+  text-align: center;
+  padding: 20px;
+  margin-right: 5px;
+  flex-grow: 1;
+}
+.flex .flex-grow-3{ 
+  flex-grow: 3;
+}
+.flex .flex-shrink-4{
+  flex-shrink: 4;
+}
+.flex .order-6{
+  order: 1;
+} */
+/* Flex Basis, Flex Shorthand */
+/* .flex{
+  display:inline-flex;
+  background-color: #eee;
+  width: 500px;
+  padding: 20px;
+  margin: 20px auto;
+  flex-direction: column;
+}
+.flex div{
+  background-color: red;
+  color: white;
+  width: 80px;
+  text-align: center;
+  padding: 20px;
+  margin-right: 5px;
+}
+.flex .wider{
+  width: 300px; 
+  flex-basis: 200px;
+  flex: 300px;
+}
+.inline{
+  display: inline-block;
+} */
+/* align-self */
+.flex{
+  display:flex;
+  background-color: #eee;
+  width: 800px;
+  height: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  flex-direction: row;
+
+  align-items: end;
+}
+.flex div{
+  background-color: red;
+  color: white;
+  width: 80px;
+  text-align: center;
+  padding: 20px;
+  margin-right: 5px;
+}
+.center{
+  align-self: center;
+  align-self: stretch;
+}

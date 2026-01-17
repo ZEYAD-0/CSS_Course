@@ -1,0 +1,43 @@
+/* Grouping Multiple Selectors */
+/* .first, .second, .third{
+  background-color: #DDD;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+.first{
+  color: red;
+  border-bottom-color: red ;
+}
+.second{
+  color: green;
+  border-bottom-color: green ;
+}
+.third{
+  color: black;
+  border-bottom-color: black ;
+} */
+
+/* Nesting */
+/* div p{
+  color: violet;
+} */
+
+/* Dimensions - Width And Height */
+/* div{
+  background-color: cyan;
+  margin: 10px;
+  padding: 10px;
+  min-width: 40px;
+  max-width: 100px;
+} */
+/* OverFlow */
+/* div{
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #DDD;
+  width: 150px;
+  height: 150px;
+  overflow:auto;
+} */
