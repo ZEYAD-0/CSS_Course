@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+/* filters */
+/* img{
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: 0px auto;
+  filter: grayscale(100%);
+  filter: blur(4px);
+  filter: invert(70%);
+  filter: drop-shadow(20px 40px 3px cyan);
+
+  transition: 0.3s;
+}
+img:hover{
+  filter: grayscale(0%);
+  filter: blur(0);
+  filter: none;
+} */
+/*
+  Gradients 
+- linear-gradient(Direction || Angle , color stop 1, color stop 2, ...);
+*/
+
+/* .one{
+  background-image: linear-gradient(to right, red, yellow, blue, red);
+  background-image: linear-gradient(60deg, red 50%, rgb(0, 0, 255, 0.8), yellow);
+  width: 400px;
+  height: 200px;
+}
+.two{
+  background-color: #eee;
+  width: 400px;
+  height: 200px;
+  margin: 50px auto;
+  padding: 10px;
+  position: relative;
+}
+.two::before{
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  background-color: red;
+  width: 100%;
+  height: 10px;
+
+  background-image: linear-gradient(to right,
+  #2980b9 20%,
+  #27ae60 20%,
+  #27ae60 40%,
+  #d35400 40%,
+  #d35400 60%,
+  #8e44ad 60%,
+  #8e44ad 80%,
+  #c0392b 80%,
+  #c0392b 100% 
+  );
+} */
+/* Pointer Events And Caret Color */
+p, input{
+  caret-color: cyan;
+}
+a:hover{
+  color: red;
+}
+a{
+  pointer-events: none;
+}
